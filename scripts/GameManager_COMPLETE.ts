@@ -76,7 +76,6 @@ class GameManagerExample extends hz.Component<typeof GameManagerExample> {
     this.props.scoreboard!.as(hz.TextGizmo)!.text.set(text);
   }
 
-
   private onGameStateFinished(): void {
     this.totalGemsCollected.clear();
     // this.updateScoreboard('Game Over');
